@@ -1,5 +1,5 @@
-.container {
-  /* width: 100%; */
+/* .container {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -55,4 +55,24 @@
   cursor: pointer;
   border: none;
   padding: 3px 3px;
+} */
+.Header {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.Header div {
+  display: flex;
+}
+
+.header-logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Header .header-logo {
+  width: 100%;
+  font-size: 35px;
+  font-weight: 900;
 }

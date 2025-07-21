@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.make-container {
+  width: 100%;
+}
+
+.make-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.make-item-header h1 {
+  font-size: 30px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.make-item-header button {
+  border: none;
+  background-color: #3e45ec;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 7px 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.best-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.best-product h4 {
+  font-size: 15px;
+}
+
+.best-product button {
+  border: none;
+  background: none;
+  color: #3e45ec;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.make-input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+  box-sizing: border-box;
+  background-color: #fafafb;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.make-input-box {
+  margin-bottom: 10px;
+}
+
+.make-input-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.make-input-content button {
+  background: none;
+  border: 2px solid #3e45ec;
+  color: #3e45ec;
+  border-radius: 8px;
+}
+
+.make-input-container h5 {
+  font-size: 10px;
+}
+.make-input-container p {
+  font-size: 17px;
+  color: #888790;
+}
+
+.my-app-info {
+  font-size: 15px;
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.make-btn {
+  display: flex;
+  width: 50%;
+  flex: 1;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #a2a2ac;
+  justify-content: center;
+  padding: 10px 0;
+  color: #ffffff;
+}

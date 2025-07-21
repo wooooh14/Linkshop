@@ -1,0 +1,70 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  /* width: 100%; */
+  background-color: #fafafb;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.store-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.username {
+  font-size: 13px;
+  color: gray;
+  margin: 0;
+}
+
+.likes {
+  font-size: 14px;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.main-label {
+  font-size: 14px;
+  color: #555;
+  font-weight: 500;
+}
+
+.products {
+  display: flex;
+  gap: 8px;
+}
+
+.product-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}

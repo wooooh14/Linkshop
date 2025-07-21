@@ -1,0 +1,36 @@
+.search-box {
+  position: relative;
+  /* width: 100%; */
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.search-box input {
+  /* width: 100%; */
+  padding: 15px 40px;
+  border: 1px solid #dddcdf;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  outline: none;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  font-size: 18px;
+
+  pointer-events: none;
+}
+
+.shop-input-wrapper .search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #999;
+  pointer-events: none;
+}

@@ -1,0 +1,22 @@
+.Button {
+  background-color: #3e45ec;
+  border: none;
+  cursor: pointer;
+  border-radius: 27px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #ffffff;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.Button_GREY {
+  background-color: #a2a2ac;
+  color: #ffffff;
+}
+
+.Button_ADDBTN {
+  background-color: #fafafb;
+  border: 1px solid #3e45ec;
+  color: #3e45ec;
+}
