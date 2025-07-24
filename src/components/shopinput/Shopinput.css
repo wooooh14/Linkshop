@@ -1,13 +1,12 @@
 .search-box {
   position: relative;
-  /* width: 100%; */
+
   border: none;
   padding: 0;
   background-color: transparent;
 }
 
 .search-box input {
-  /* width: 100%; */
   padding: 15px 40px;
   border: 1px solid #dddcdf;
   border-radius: 20px;

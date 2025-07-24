@@ -1,0 +1,47 @@
+.Shop-card-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 16px;
+  width: 100%;
+  background-color: #fafafb;
+  padding: 35px 15px;
+  margin-bottom: 20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.left img {
+  cursor: pointer;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shop-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.shop-name {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.username {
+  font-size: 14px;
+  color: #888790;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

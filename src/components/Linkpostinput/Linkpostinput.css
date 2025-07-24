@@ -7,37 +7,13 @@
   width: 100%;
 }
 
-.make-item-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 20px auto;
-  width: 80%;
-}
-
-.make-item-header h1 {
-  font-size: 30px;
-  font-weight: 900;
-  margin: 0;
-}
-
-.make-item-header button {
-  border: none;
-  background-color: #3e45ec;
-  color: #ffffff;
-  border-radius: 20px;
-  padding: 7px 15px;
-  font-weight: 600;
-  cursor: pointer;
-}
-
 .best-product {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 50%;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .best-product h4 {
@@ -65,26 +41,39 @@
   margin-bottom: 10px;
 }
 
-.make-input-box {
+.make-input-container input {
+  width: 100%;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background-color: #fafafb;
   margin-bottom: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.make-input-container input::placeholder {
+  color: #888790;
 }
 
 .make-input-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10px;
 }
 
-.make-input-content button {
-  background: none;
-  border: 2px solid #3e45ec;
-  color: #3e45ec;
+.Button_ADDBTN {
+  font-size: 13px;
+  padding: 6px 12px;
   border-radius: 8px;
 }
 
 .make-input-container h5 {
   font-size: 10px;
 }
+
 .make-input-container p {
   font-size: 17px;
   color: #888790;
@@ -94,20 +83,17 @@
   font-size: 15px;
   width: 50%;
   margin: 0 auto;
-  padding-bottom: 10px;
-  padding-top: 20px;
+  padding: 10px 0;
 }
 
-.make-btn {
-  display: flex;
+.make-btn-wrapper {
   width: 50%;
-  flex: 1;
+  display: flex;
   margin: 0 auto;
-  margin-bottom: 10px;
-  border-radius: 20px;
-  border: none;
-  background-color: #a2a2ac;
-  justify-content: center;
-  padding: 10px 0;
-  color: #ffffff;
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+
+.Button_GREY {
+  flex: 1;
 }

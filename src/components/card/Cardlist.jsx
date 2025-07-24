@@ -15,6 +15,7 @@ const Cardlist = ({ filteredData }) => {
               icon={item.icon}
               storeName={item.storeName}
               username={item.username}
+              heart={item.heart}
               likes={item.likes}
               label={item.label}
               products={item.products}

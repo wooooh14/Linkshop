@@ -1,14 +1,11 @@
-import Header from "../components/header/Header";
-import Button from "../components/Button/Button";
+import Shopheader from "../components/shop/Shopheader";
+import Shopcardlist from "../components/Shopcardlist/Shopcardlist";
 
 const Search = () => {
   return (
     <div>
-      <Header
-        title={"LINK SHOP"}
-        to={"/"}
-        btnChild={<Button text="임시" to="/" />}
-      />
+      <Shopheader />
+      <Shopcardlist />
     </div>
   );
 };

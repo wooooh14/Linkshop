@@ -8,6 +8,9 @@
   color: #ffffff;
   white-space: nowrap;
   text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Button_GREY {

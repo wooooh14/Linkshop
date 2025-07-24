@@ -46,9 +46,12 @@
 }
 
 .likes {
+  display: flex;
   font-size: 14px;
-  color: #e74c3c;
-  font-weight: bold;
+  font-weight: 500;
+  color: #000000;
+  align-items: center;
+  gap: 5px;
 }
 
 .main-label {

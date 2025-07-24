@@ -1,0 +1,19 @@
+.Shopcardlist {
+  width: 100%;
+}
+
+p {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #14151a;
+}
+
+.shop-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 10px;
+  padding-bottom: 20px;
+}

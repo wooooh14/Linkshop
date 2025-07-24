@@ -1,21 +1,21 @@
-import shopheaderic from "../../assets/icon/shopheaderic.png";
 import { FaChevronLeft } from "react-icons/fa";
-import Shopcard from "./ShopCard";
+import { getIcon } from "../../util/imageloader";
+
 import "./Shopheader.css";
+import { Link } from "react-router-dom";
 
 const Shopheader = () => {
   return (
     <>
-      <div className="shop-header-container">
-        <img src={shopheaderic} alt="shopheader" />
-        <div>
-          <button className="back-btn">
+      <div className="Shop-header">
+        <img src={getIcon("shopheader")} alt="shopheader" />
+        <div className="shop-btn">
+          <Link to="/">
             <FaChevronLeft />
             돌아가기
-          </button>
+          </Link>
         </div>
       </div>
-      <Shopcard />
     </>
   );
 };

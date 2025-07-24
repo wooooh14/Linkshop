@@ -1,6 +1,14 @@
 import "./Carditem.css";
 
-const Carditem = ({ icon, storeName, username, likes, label, products }) => {
+const Carditem = ({
+  icon,
+  storeName,
+  username,
+  heart,
+  likes,
+  label,
+  products,
+}) => {
   return (
     <div className="card">
       <div className="card-header">
@@ -11,7 +19,10 @@ const Carditem = ({ icon, storeName, username, likes, label, products }) => {
             <p className="username">{username}</p>
           </div>
         </div>
-        <div className="likes">❤️ {likes}</div>
+        <div className="likes">
+          <img src={heart} alt="heart" className="heart" />
+          {likes}
+        </div>
       </div>
 
       <div className="main-label">{label}</div>

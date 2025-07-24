@@ -3,6 +3,11 @@ import iconblue from "./../assets/icon/iconblue.png";
 import iconred from "./../assets/icon/iconred.png";
 import nosearchic from "./../assets/icon/nosearchic.png";
 import shopheaderic from "./../assets/icon/shopheaderic.png";
+import meatball from "./../assets/icon/meatball.png";
+import share from "./../assets/icon/share.png";
+import fillheart from "./../assets/icon/fillheart.png";
+import emptyheart from "./../assets/icon/emptyheart.png";
+
 //상품들
 import baby from "./../assets/images/baby.png";
 import towel from "./../assets/images/towel.png";
@@ -21,6 +26,10 @@ const iconMap = {
   red: iconred,
   nosearch: nosearchic,
   shopheader: shopheaderic,
+  share: share,
+  meatball: meatball,
+  fillheart: fillheart,
+  emptyheart: emptyheart,
 };
 
 const imageMap = {

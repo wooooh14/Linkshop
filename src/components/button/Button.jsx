@@ -9,6 +9,7 @@ const Button = ({ text, type, to }) => {
       </Link>
     );
   }
+  return <button className={`Button Button_${type}`}>{text}</button>;
 };
 
 export default Button;
